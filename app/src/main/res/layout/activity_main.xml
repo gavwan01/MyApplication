@@ -24,7 +24,14 @@
         android:text="Button"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="27dp" />
-
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#00aaff"
+        android:orientation="vertical"
+        android:layout_marginTop="100px"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp">
     <Button
         android:id="@+id/button3"
         android:layout_width="150sp"
@@ -38,9 +45,53 @@
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="10dp"
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         tools:layout_editor_absoluteX="27dp" />
 
+
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="这是一个伟大的日子，大家都很开心，举国欢庆，万人空巷"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#448899"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="308dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextViewsadfffffffffffffffffffff
+            fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            dfdddddddddddddddddddddddddddddddddd
+            dfddddddddddddddd
+            fdddddddddddddddddddd
+            fddddddddddddd
+            fddddddddddddddd
+            dfffffffffffffffff
+            dffffffffffffff
+            dffffffffffff
+            dffffffffffff
+            fddddddddddddddddd
+            dffffffffffffffff
+            dfffffffffffffffffff
+            ffffffff" />
+        </ScrollView>
+    </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>
+
