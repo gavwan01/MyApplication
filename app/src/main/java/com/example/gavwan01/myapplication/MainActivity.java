@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mylayout01);
-
+        setContentView(R.layout.mylayout02);
+/*
         tv_hello = (TextView) findViewById(R.id.tv_chat_win);
         tv_hello.setOnClickListener(this);
         tv_hello.setOnLongClickListener(this);
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_hello.setTextColor(0x67890548);
         tv_hello.setTextSize(40);
         tv_hello.setBackgroundColor(Color.YELLOW);
+       */
     }
 
     public void onClick(View v) {
@@ -46,4 +47,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return true;
 
     }
+
 }
